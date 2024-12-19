@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+header{
+  text-align: center;
+  margin: 60px 0px;
+}
+header img{
+  width: 200px;
+  border-radius: 50%;
+}
+nav{
+  text-align: center;
+  background-color: rgb(86, 52, 52);
+  color: white;
+}
+nav ul{
+  list-style-type:none;
+}
+nav ul li{
+  display: inline-block;
+  font-size: 18px;
+  padding: 20px 10px;
+}
+#container{
+  text-align: center;
+  margin-top: 60px;
+}
+#container img{
+  width: 100%;
+  padding: 30px 0px;
+}
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
